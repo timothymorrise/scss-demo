@@ -1,0 +1,40 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: lightblue;
+  height: 900px;
+  color: black;
+}
+
+header button {
+  background: #215de0;
+}
+
+header button:hover {
+  background: red;
+}
+
+header button::after {
+  content: "hellooooooo";
+}
+
+.contact button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #215de0;
+}
+/*# sourceMappingURL=style.css.map */
